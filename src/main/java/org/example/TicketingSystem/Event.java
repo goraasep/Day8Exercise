@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Event {
     private String eventName;
-    private static int ticketAvailable;
+    private int ticketAvailable;
     private double ticketPrice;
     private List<Ticketable> ticketList = new ArrayList<>();
 
